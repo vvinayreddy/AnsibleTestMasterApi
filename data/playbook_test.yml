@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:  
+  - shell: /usr/bin/uptime
+    register: result
+  - debug: var=result verbosity=2
