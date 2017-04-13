@@ -13,8 +13,8 @@ var ec2 = new AWS.EC2({
 function createInstances(instanceInfo, cb) {
 
     awsClient.init({
-        key: "AKIAIOCICOCTA5QKOPJA",
-        secret: "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",
+        key: "",
+        secret: "",
         region: "us-west-2"
     }, function (err, data) {
         if (!err) {
