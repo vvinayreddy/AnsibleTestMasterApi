@@ -52,7 +52,7 @@ module.exports.config = {
                 "type": "ssh",
                 "data": {
                     "command": "/usr/lib/jvm/jdk1.8.0_60/bin/java -version",
-                    "result": "java version \"1.7.0_60-ea\""
+                    "result": "java version \"1.8.0_60-ea\""
                 }
             }
         ]
